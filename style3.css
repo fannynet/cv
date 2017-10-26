@@ -1,0 +1,253 @@
+body{
+    font-family: "Montserrat";
+
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1%;
+    padding: 0%;
+    color: #444;}
+
+
+.main{
+
+    padding-top:1%;
+    text-align: justify;
+    margin-left: 0% ;
+
+}
+
+
+.imgprofil{
+    width: 92%;
+    height: 80%;
+    text-align: right;
+
+
+    margin-bottom: 3%;
+    border-radius: 5%;
+
+}
+
+
+i.fa{
+    font-size: 100%;
+}
+i.fa-mobile{
+    color:#009688;
+    font-size: 200%;
+}
+
+i.fa-envelope{
+    color:yellowgreen;
+}
+i.fa-cab{
+    color:orangered;
+}
+
+i.fa-ticket{
+    color:orangered;
+    font-size: 380%;
+    margin-right: 5% ;
+}
+
+i.fa-plane{
+    color:#009688;
+    font-size: 380%;
+    margin-right: 5% ;
+}
+
+i.fa-area-chart{
+    color:yellowgreen;
+    font-size: 380%;
+    margin-right: 5% ;
+}
+
+i.fa-wordpress{
+    color: #009688;
+    font-size: 380%;
+    margin-right: 5% ;
+
+}
+i.fa-globe{
+    color: #009688;
+    font-size: 380%;
+    margin-right: 5% ;
+
+}
+
+i.fa-group{
+    color:orangered;
+    font-size: 380%;
+    margin-right: 5% ;
+}
+i.fa-bullseye {
+    color:yellowgreen;
+    font-size: 380%;
+    margin-right: 5% ;
+}
+
+i.fa-quote-left{
+    color: #667184;
+    font-size: 200%;
+    margin-right: 5% ;
+
+
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #608386;
+}
+h3 {
+    font-size: 1.4em;
+    color: #16a085;
+
+}
+.Experience{
+    margin-bottom: 3% ;
+    margin-top: 3% ;
+    background: #ecf0f1;
+    border-radius:5px ;
+
+}
+.exp{
+    margin-top: 3% ;
+}
+.headerPilier{
+    background: #ecf0f1;
+    border-radius:5px ;
+}
+.piliers{
+    margin-bottom: 3% ;
+}
+
+.footer{
+    font-size: 1.4em;
+    text-align: justify;
+}
+.imgweb{
+    width: 17%;
+}
+
+@media only screen and (max-min:700px) {
+    .imgprofil{
+        display: none;   
+    }
+}
+
+.contact2{
+        display:none;
+    }
+    .contact{
+        display:block;
+    }
+    
+@media only screen and (max-width:961px) {
+    .contact2{
+        display:block;
+    }
+    .contact{
+        display:none;
+    }
+    .imgprofil{
+        display: none;   
+    }
+    i.fa-ticket{
+        color:orangered;
+        font-size: 300%;
+        margin-right: 5% ;
+    }
+
+    i.fa-plane{
+        color:#009688;
+        font-size: 300%;
+        margin-right: 5% ;
+    }
+
+    i.fa-area-chart{
+        color:yellowgreen;
+        font-size: 300%;
+        margin-right: 5% ;
+    }
+
+    i.fa-wordpress{
+        color: #009688;
+        font-size: 300%;
+        margin-right: 5% ;
+
+    }
+    i.fa-globe{
+        color: #009688;
+        font-size: 300%;
+        margin-right: 5% ;
+
+    }
+
+    i.fa-group{
+        color:orangered;
+        font-size: 300%;
+        margin-right: 5% ;
+    }
+    i.fa-bullseye {
+        color:yellowgreen;
+        font-size: 300%;
+        margin-right: 5% ;
+    }
+}
+
+
+.technos{
+    margin-top: 5%;
+}
+
+@media only screen and (max-width:700px) {
+    .imgprofil{
+        display: none;   
+    }
+    i.fa-ticket{
+        color:orangered;
+        font-size: 200%;
+        margin-right: 5% ;
+    }
+
+    i.fa-plane{
+        color:#009688;
+        font-size: 200%;
+        margin-right: 5% ;
+    }
+
+    i.fa-area-chart{
+        color:yellowgreen;
+        font-size: 200%;
+        margin-right: 5% ;
+    }
+
+    i.fa-wordpress{
+        color: #009688;
+        font-size: 200%;
+        margin-right: 5% ;
+
+    }
+    i.fa-globe{
+        color: #009688;
+        font-size: 200%;
+        margin-right: 5% ;
+
+    }
+
+    i.fa-group{
+        color:orangered;
+        font-size: 200%;
+        margin-right: 5% ;
+    }
+    i.fa-bullseye {
+        color:yellowgreen;
+        font-size: 200%;
+        margin-right: 5% ;
+    }
+
+}
