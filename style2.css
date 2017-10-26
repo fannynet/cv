@@ -1,0 +1,154 @@
+body{
+    font-family: "Montserrat";
+ 
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-bottom: 1%;
+	color: #444;}
+
+.sidebar{
+	width: 25%;
+	float: left;
+       
+         
+}
+.main{
+	width: 65%;
+	float: left;
+        padding-top:0%;
+        text-align: justify;
+        margin: 3% ;
+             
+}
+.mainsidebar{
+	width: 95%;
+	float: left;
+        text-align: justify;
+           margin: 5% ;
+}
+.imgprofil{
+    width: 100%;
+    height: 80%;
+    float: right;
+    margin-bottom: 3%;
+    border-radius: 5%;
+    
+}
+
+.footer{
+    clear:both;
+    width:100%;
+}
+
+i.fa{
+    font-size: 100%;
+}
+i.fa-mobile{
+    color:#009688;
+    font-size: 200%;
+}
+ 
+i.fa-envelope{
+    color:yellowgreen;
+}
+i.fa-cab{
+    color:orangered;
+}
+
+i.fa-ticket{
+    color:orangered;
+    font-size: 280%;
+    margin-right: 5% ;
+}
+ 
+i.fa-plane{
+    color:#009688;
+     font-size: 280%;
+    margin-right: 5% ;
+}
+
+i.fa-area-chart{
+    color:yellowgreen;
+    font-size: 280%;
+    margin-right: 5% ;
+}
+
+i.fa-wordpress{
+    color: #009688;
+    font-size: 280%;
+    margin-right: 5% ;
+
+}
+i.fa-globe{
+    color: #009688;
+     font-size: 280%;
+    margin-right: 5% ;
+
+}
+ 
+ i.fa-group{
+    color:orangered;
+    font-size: 280%;
+    margin-right: 5% ;
+}
+i.fa-bullseye {
+    color:yellowgreen;
+    font-size: 280%;
+    margin-right: 5% ;
+}
+
+i.fa-quote-left{
+    color: #667184;
+     font-size: 200%;
+    margin-right: 5% ;
+    margin-right: 5% ;
+
+}
+
+h1 {
+    font-size: 2.8em;
+}
+ 
+h2 {
+    font-size: 1.5em;
+     color: #608386;
+}
+h3 {
+    font-size: 1.4em;
+    color: #16a085;
+     
+}
+
+.contact ul{list-style: none; padding:0 2%;}
+.contact .profil{width:100%;}
+.contact .profil p{vertical-align: middle;}
+.contact{clear: both;}
+
+quote footer {
+    font-size:420%;
+}
+i headerPilier quote{
+    
+}
+
+@media only screen and (max-width:700px) {
+.imgprofil{
+    display: none;   
+}
+.sidebar{
+	width: 100%;
+        text-align: justify;
+        margin: 5% ;
+}
+h1 {
+    font-size: 1.9em;
+}
+
+@media only screen and (max‐width:1024px) and (min‐width:480px) {
+/* propriétés pour une largeur de la fenêtre
+(viewport) de 480px à 1024px */
+}
+@media only screen and (min‐width:1024px) {
+/* propriétés pour une largeur de la fenêtre
+(viewport) à partir de 1024px */
+}
